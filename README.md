@@ -25,18 +25,23 @@ Suggest books similar to a user's input book title.
 ├── README.md                         # Project documentation (this file)
 └── requirements.txt                  # Python libraries required (optional)
 
+
 #`How to use 
+
 Step 1 : Prepare your dataset
          Ensure you have a DataFrame (df) with:
          1) Index: Book titles
          2) Values: Feature vectors (like genres, keywords, embeddings, etc.)
+
 Step 2 : Train or load a KNN model
          Example:from sklearn.neighbors import NearestNeighbors
          model = NearestNeighbors(metric='euclidean', algorithm='auto')
          model.fit(df.values)
+
 Step 3 : Use the get_recommends function
          books = get_recommends("Where the Heart Is (Oprah's Book Club (Paperback))")
          print(books)
+
 Step 4 : Test the recommender system
          Run the test_book_recommendation() function to validate the output. 
 
