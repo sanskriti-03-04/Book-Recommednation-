@@ -4,10 +4,11 @@ A simple yet effective book recommendation system using K-Nearest Neighbors (KNN
 Given a book title, it recommends 5 similar books based on feature similarity.
 
 
-#Goal:
+# Goal:
+
 Suggest books similar to a user's input book title.
 
-#How it works:
+# How it works:
 1) Looks up the feature vector of the given book.
 2) Uses a pre-trained KNN model to find the nearest neighbors (similar books).
 3) Returns the top 5 closest books along with their similarity scores.
@@ -19,12 +20,12 @@ Suggest books similar to a user's input book title.
 
 3) Scikit-learn (for KNN modeling)
 
-#Project structure 
+# Project structure 
 ├── Book Recommendation System.ipynb  # Main notebook
 ├── README.md                         # Project documentation (this file)
 └── requirements.txt                  # Python libraries required (optional)
 
-#How to use 
+#`How to use 
 Step 1 : Prepare your dataset
          Ensure you have a DataFrame (df) with:
          1) Index: Book titles
@@ -39,7 +40,7 @@ Step 3 : Use the get_recommends function
 Step 4 : Test the recommender system
          Run the test_book_recommendation() function to validate the output. 
 
-#Example Output
+# Example Output
 [
   "Where the Heart Is (Oprah's Book Club (Paperback))",
   [
