@@ -8,12 +8,12 @@ Given a book title, it recommends 5 similar books based on feature similarity.
 
 Suggest books similar to a user's input book title.
 
-# How it works:
+#  How it works:
 1) Looks up the feature vector of the given book.
 2) Uses a pre-trained KNN model to find the nearest neighbors (similar books).
 3) Returns the top 5 closest books along with their similarity scores.
 
-#Tech Stack
+#  Tech Stack
 1) Python
 
 2) Pandas (for data handling)
@@ -56,7 +56,7 @@ Step 4 : Test the recommender system
     ["The Lovely Bones: A Novel", 0.72]
   ]
 ]
-# Features
+#  Features
 1) Accurate similarity matching based on pre-computed features.
 
 2) Easy-to-understand code structure.
@@ -65,7 +65,7 @@ Step 4 : Test the recommender system
 
 4) Supports extension to larger datasets or more advanced models.
 
-#Future Improvements
+#  Future Improvements
 1) Improve feature engineering (use embeddings from book descriptions or reviews).
 
 2) Use cosine similarity for better distance metrics.
@@ -74,7 +74,7 @@ Step 4 : Test the recommender system
 
 4) Add genre-based filtering or popularity-based boosting.
 
-#Acknowledgements
+#  Acknowledgements
 1) Scikit-learn
 
 2) Pandas
