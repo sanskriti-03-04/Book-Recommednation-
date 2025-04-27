@@ -26,7 +26,7 @@ Suggest books similar to a user's input book title.
 └── requirements.txt                  # Python libraries required (optional)
 
 
-#`How to use 
+#  How to use 
 
 Step 1 : Prepare your dataset
          Ensure you have a DataFrame (df) with:
